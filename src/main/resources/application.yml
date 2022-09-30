@@ -1,0 +1,13 @@
+logging:
+  level:
+    org:
+      apache:
+        coyote:
+          http11: debug
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1MB
+
+file:
+  dir: "/Users/jangsea-ung/Desktop/jang/private/private_project/study/김영한/MVC/MVC 2편/"
